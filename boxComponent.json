@@ -1,0 +1,746 @@
+[
+    {
+        "id": 32697706,
+        "type": "CONTAINER",
+        "boardId": 123262,
+        "data": {
+            "name": "Container 1",
+            "width": 256,
+            "height": 358,
+            "layout": null,
+            "shadow": "M",
+            "zIndex": 1,
+            "position": {
+                "x": 647,
+                "y": 142
+            },
+            "patternId": "473776",
+            "borderDash": "Solid",
+            "borderColor": {
+                "type": "NEUTRAL",
+                "shade": 400
+            },
+            "borderWidth": "NONE",
+            "ignoreError": null,
+            "borderRadius": {
+                "topLeft": "M",
+                "topRight": "M",
+                "bottomLeft": "M",
+                "bottomRight": "M"
+            },
+            "borderOpacity": 100,
+            "patternFlatten": false,
+            "backgroundColor": {
+                "type": "WHITE"
+            },
+            "backgroundOpacity": 100,
+            "shadowUseElementColor": false
+        },
+        "parentId": 32695501,
+        "isDeleted": false,
+        "createdAt": "2022-07-04T08:15:11.652Z",
+        "createdBy": 6544,
+        "updatedAt": "2022-07-04T08:15:11.676Z",
+        "updatedBy": 6544,
+        "elementUserLintIgnores": [],
+        "ignoreIssues": [],
+        "children": [
+            {
+                "id": 32697707,
+                "type": "SWITCH",
+                "boardId": 123262,
+                "data": {
+                    "name": "Switch 1",
+                    "size": "S",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "state": "DEFAULT",
+                    "style": "BASIC",
+                    "width": 32,
+                    "height": 44,
+                    "status": "ON",
+                    "zIndex": 2,
+                    "layoutId": "SWITCH241426",
+                    "position": {
+                        "x": 204,
+                        "y": 176
+                    },
+                    "ignoreError": null
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.672Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.672Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697712,
+                "type": "AVATAR",
+                "boardId": 123262,
+                "data": {
+                    "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+                    "name": "Avatar 1",
+                    "size": "M",
+                    "text": "A",
+                    "badge": "NONE",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "image": "A",
+                    "sharp": "OVAL",
+                    "style": "ICON",
+                    "width": null,
+                    "height": null,
+                    "zIndex": 6,
+                    "layoutId": "AVATAR242623",
+                    "position": {
+                        "x": 18,
+                        "y": 15
+                    },
+                    "borderWidth": "NONE",
+                    "ignoreError": null
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.675Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.675Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697710,
+                "type": "DIVIDER",
+                "boardId": 123262,
+                "data": {
+                    "to": {
+                        "x": 256,
+                        "y": 67
+                    },
+                    "from": {
+                        "x": 0,
+                        "y": 66
+                    },
+                    "name": "Divider 1",
+                    "zIndex": 1,
+                    "layoutId": "DIVIDER240707",
+                    "lineDash": "Solid",
+                    "position": {
+                        "x": 0,
+                        "y": 66
+                    },
+                    "lineColor": {
+                        "type": "NEUTRAL",
+                        "shade": 300
+                    },
+                    "lineWidth": 1
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.671Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.671Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697713,
+                "type": "SIDEBAR_MENU",
+                "boardId": 123262,
+                "data": {
+                    "name": "Sidebar menu 1",
+                    "size": "M",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "style": "OVERLAY",
+                    "width": 244,
+                    "height": 80,
+                    "zIndex": 11,
+                    "layoutId": "SIDEBAR_MENU240694",
+                    "position": {
+                        "x": 6,
+                        "y": 219
+                    },
+                    "ignoreError": null,
+                    "borderRadius": {
+                        "topLeft": "M",
+                        "topRight": "M",
+                        "bottomLeft": "M",
+                        "bottomRight": "M"
+                    },
+                    "verticalSpacing": 0,
+                    "horizontalSpacing": 0
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.675Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.675Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": [
+                    {
+                        "id": 32697724,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41c0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z\"/></svg>",
+                                "iconId": "id_help",
+                                "iconName": "help",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 2",
+                            "text": "Help center",
+                            "color": null,
+                            "order": 1,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473788",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697713,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.709Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.709Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    },
+                    {
+                        "id": 32697722,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25zm0 6l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25zm-7.5-5.5L9 4L6.5 9.5L1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zm-1.51 3.49L9 15.17l-.99-2.18L5.83 12l2.18-.99L9 8.83l.99 2.18l2.18.99l-2.18.99z\"/></svg>",
+                                "iconId": "id_auto_awesome",
+                                "iconName": "auto_awesome",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 2",
+                            "text": "Go Pro",
+                            "color": null,
+                            "order": 0,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473785",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697713,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.707Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.707Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 32697716,
+                "type": "DIVIDER",
+                "boardId": 123262,
+                "data": {
+                    "to": {
+                        "x": 256,
+                        "y": 213
+                    },
+                    "from": {
+                        "x": 0,
+                        "y": 212
+                    },
+                    "name": "Divider 1",
+                    "zIndex": 9,
+                    "layoutId": "DIVIDER249333",
+                    "lineDash": "Solid",
+                    "position": {
+                        "x": 0,
+                        "y": 212
+                    },
+                    "lineColor": {
+                        "type": "NEUTRAL",
+                        "shade": 300
+                    },
+                    "lineWidth": 1
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.680Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.680Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697718,
+                "type": "TEXT",
+                "boardId": 123262,
+                "data": {
+                    "bold": false,
+                    "name": "Text 1",
+                    "size": "S",
+                    "text": "example@gmail.com",
+                    "color": {
+                        "type": "NEUTRAL",
+                        "shade": 500
+                    },
+                    "width": 178,
+                    "height": 20,
+                    "italic": false,
+                    "preset": "Body Text",
+                    "zIndex": 8,
+                    "layoutId": "TEXT242622",
+                    "position": {
+                        "x": 66,
+                        "y": 34
+                    },
+                    "textAlign": "LEFT",
+                    "underline": false,
+                    "uppercase": false,
+                    "lineStyles": {},
+                    "ignoreError": null
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.680Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.680Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697714,
+                "type": "TEXT",
+                "boardId": 123262,
+                "data": {
+                    "bold": true,
+                    "name": "Text 1",
+                    "size": "M",
+                    "text": "User name",
+                    "color": {
+                        "type": "NEUTRAL",
+                        "shade": 900
+                    },
+                    "width": 178,
+                    "height": 22,
+                    "italic": false,
+                    "preset": "Body Text",
+                    "zIndex": 7,
+                    "layoutId": "TEXT242624",
+                    "position": {
+                        "x": 66,
+                        "y": 12
+                    },
+                    "textAlign": "LEFT",
+                    "underline": false,
+                    "uppercase": false,
+                    "lineStyles": {},
+                    "ignoreError": null
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.676Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.676Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697709,
+                "type": "SIDEBAR_MENU",
+                "boardId": 123262,
+                "data": {
+                    "name": "Sidebar menu 1",
+                    "size": "M",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "style": "OVERLAY",
+                    "width": 244,
+                    "height": 80,
+                    "zIndex": 4,
+                    "layoutId": "SIDEBAR_MENU240704",
+                    "position": {
+                        "x": 6,
+                        "y": 73
+                    },
+                    "ignoreError": null,
+                    "borderRadius": {
+                        "topLeft": "M",
+                        "topRight": "M",
+                        "bottomLeft": "M",
+                        "bottomRight": "M"
+                    },
+                    "verticalSpacing": 0,
+                    "horizontalSpacing": 0
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.672Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.672Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": [
+                    {
+                        "id": 32697719,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98c0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65A.488.488 0 0 0 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1a.566.566 0 0 0-.18-.03c-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98c0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46a.5.5 0 0 0 .61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03c.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73c0 .21-.02.43-.05.73l-.14 1.13l.89.7l1.08.84l-.7 1.21l-1.27-.51l-1.04-.42l-.9.68c-.43.32-.84.56-1.25.73l-1.06.43l-.16 1.13l-.2 1.35h-1.4l-.19-1.35l-.16-1.13l-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7l-1.06.43l-1.27.51l-.7-1.21l1.08-.84l.89-.7l-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13l-.89-.7l-1.08-.84l.7-1.21l1.27.51l1.04.42l.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43l.16-1.13l.2-1.35h1.39l.19 1.35l.16 1.13l1.06.43c.43.18.83.41 1.23.71l.91.7l1.06-.43l1.27-.51l.7 1.21l-1.07.85l-.89.7l.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2z\"/></svg>",
+                                "iconId": "id_settings",
+                                "iconName": "settings",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 2",
+                            "text": "Preferences",
+                            "color": null,
+                            "order": 1,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473781",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697709,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.701Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.701Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    },
+                    {
+                        "id": 32697720,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zM7.07 18.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78C15.57 19.36 13.86 20 12 20s-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33A7.95 7.95 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z\"/></svg>",
+                                "iconId": "id_account_circle",
+                                "iconName": "account_circle",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 1",
+                            "text": "Edit profile",
+                            "color": null,
+                            "order": 0,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473784",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697709,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.702Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.702Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 32697715,
+                "type": "SIDEBAR_MENU",
+                "boardId": 123262,
+                "data": {
+                    "name": "Sidebar menu 1",
+                    "size": "M",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "style": "OVERLAY",
+                    "width": 244,
+                    "height": 40,
+                    "zIndex": 12,
+                    "layoutId": "SIDEBAR_MENU249341",
+                    "position": {
+                        "x": 6,
+                        "y": 312
+                    },
+                    "borderRadius": {
+                        "topLeft": "NONE",
+                        "topRight": "NONE",
+                        "bottomLeft": "NONE",
+                        "bottomRight": "NONE"
+                    },
+                    "verticalSpacing": 0,
+                    "horizontalSpacing": 0
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.677Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.677Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": [
+                    {
+                        "id": 32697723,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5l-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z\"/></svg>",
+                                "iconId": "id_login",
+                                "iconName": "login",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 2",
+                            "text": "Sign out",
+                            "color": null,
+                            "order": 0,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473795",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697715,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.707Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.707Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 32697711,
+                "type": "DIVIDER",
+                "boardId": 123262,
+                "data": {
+                    "to": {
+                        "x": 256,
+                        "y": 160
+                    },
+                    "from": {
+                        "x": 0,
+                        "y": 159
+                    },
+                    "name": "Divider 1",
+                    "zIndex": 5,
+                    "layoutId": "DIVIDER240702",
+                    "lineDash": "Solid",
+                    "position": {
+                        "x": 0,
+                        "y": 159
+                    },
+                    "lineColor": {
+                        "type": "NEUTRAL",
+                        "shade": 300
+                    },
+                    "lineWidth": 1,
+                    "ignoreError": null
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.673Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.673Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697717,
+                "type": "DIVIDER",
+                "boardId": 123262,
+                "data": {
+                    "to": {
+                        "x": 256,
+                        "y": 306
+                    },
+                    "from": {
+                        "x": 0,
+                        "y": 305
+                    },
+                    "name": "Divider 1",
+                    "zIndex": 10,
+                    "layoutId": "DIVIDER249335",
+                    "lineDash": "Solid",
+                    "position": {
+                        "x": 0,
+                        "y": 305
+                    },
+                    "lineColor": {
+                        "type": "NEUTRAL",
+                        "shade": 300
+                    },
+                    "lineWidth": 1
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.679Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.679Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": []
+            },
+            {
+                "id": 32697708,
+                "type": "SIDEBAR_MENU",
+                "boardId": 123262,
+                "data": {
+                    "name": "Sidebar menu 1",
+                    "size": "M",
+                    "color": {
+                        "type": "PRIMARY"
+                    },
+                    "style": "BASIC",
+                    "width": 198,
+                    "height": 40,
+                    "zIndex": 3,
+                    "opacity": null,
+                    "layoutId": "SIDEBAR_MENU240930",
+                    "position": {
+                        "x": 6,
+                        "y": 166
+                    },
+                    "ignoreError": null,
+                    "borderRadius": {
+                        "topLeft": "M",
+                        "topRight": "M",
+                        "bottomLeft": "M",
+                        "bottomRight": "M"
+                    },
+                    "verticalSpacing": 0,
+                    "horizontalSpacing": 0
+                },
+                "parentId": 32697706,
+                "isDeleted": false,
+                "createdAt": "2022-07-04T08:15:11.672Z",
+                "createdBy": 6544,
+                "updatedAt": "2022-07-04T08:15:11.672Z",
+                "updatedBy": 6544,
+                "elementUserLintIgnores": [],
+                "ignoreIssues": [],
+                "children": [
+                    {
+                        "id": 32697721,
+                        "type": "SIDEBAR_MENU_ITEM",
+                        "boardId": 123262,
+                        "data": {
+                            "svg": null,
+                            "icon": {
+                                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M10 4c4.41 0 8 3.59 8 8s-3.59 8-8 8c-.34 0-.68-.02-1.01-.07C10.9 17.77 12 14.95 12 12s-1.1-5.77-3.01-7.93C9.32 4.02 9.66 4 10 4m0-2c-1.82 0-3.53.5-5 1.35C7.99 5.08 10 8.3 10 12s-2.01 6.92-5 8.65C6.47 21.5 8.18 22 10 22c5.52 0 10-4.48 10-10S15.52 2 10 2z\"/></svg>",
+                                "iconName": "brightness_2",
+                                "alignment": "LEFT",
+                                "iconStyle": "outlined",
+                                "iconSetName": "Material"
+                            },
+                            "name": "Sidebar menu item 1",
+                            "text": "Night mode",
+                            "color": null,
+                            "order": 0,
+                            "state": "DEFAULT",
+                            "zIndex": 0,
+                            "layoutId": "SIDEBAR_MENU_ITEM473786",
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "arrowIcon": null,
+                            "ignoreError": null,
+                            "indentLevel": 0,
+                            "backgroundColorShade": null
+                        },
+                        "parentId": 32697708,
+                        "isDeleted": false,
+                        "createdAt": "2022-07-04T08:15:11.704Z",
+                        "createdBy": 6544,
+                        "updatedAt": "2022-07-04T08:15:11.704Z",
+                        "updatedBy": 6544,
+                        "elementUserLintIgnores": [],
+                        "ignoreIssues": [],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]
